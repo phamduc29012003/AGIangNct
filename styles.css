@@ -121,11 +121,11 @@ i.play-icon {
 
 }
 .options {
-  display: flex;
-  justify-content: center;
-  padding-top: 30px;
-  
-  font-size: 17px;
+  width: 894px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+    font-size: 17px;
 
 }
 .select-options {

@@ -1,5 +1,4 @@
 const $ = document.querySelector.bind(document);
-const $$ = document.querySelectorAll.bind(document);
 
 const player = $('.player')
 const heading = $(".music-name");
@@ -82,7 +81,7 @@ const app = {
     }
     audio.onplay = function() {
         _this.isPlaying= true
-        player.classList.add('playing')
+        player.classList.add('playing') 
     }
     audio.onpause = function() {
         _this.isPlaying= false
